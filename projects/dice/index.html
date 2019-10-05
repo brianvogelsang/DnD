@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+   
+    
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/dice.css">
+    <script src='./js/dice.js'></script>
+    
+  
+    
+  <title>Dice Roller</title>
+    	
+		<a id="headDiv" href="../index.html">
+               &#127969; 
+        </a> 
+	
+	
+
+    </head>
+
+<body>
+    
+    <div style="margin-top:90px;">
+        
+        
+        <div id=scoreBoard>
+        <h1> Try your Luck </h1>
+        </div>
+        <!-- Dice Rollers
+   
+        -->
+     <div id=btnDiv class=flex-container>
+         
+	    <a onclick='basicRoll(1,5);'
+           class='flex-item'>        
+            d4
+        </a>
+    
+	    <a onclick='basicRoll(1,7);' class=flex-item>
+         d6
+        </a>
+    
+        <a onclick='basicRoll(1,9);' class=flex-item>
+         d8
+        </a>
+  
+        <a onclick='basicRoll(1,11);' class=flex-item>
+         d10
+        </a>
+             
+        <a onclick='basicRoll(1,13);' class='flex-item'>
+         d12
+        </a>
+       
+        <a onclick='basicRoll(1,21);' class='flex-item'>
+         d20
+        </a>
+        
+        <a onclick='basicRoll(1,101);' class='flex-item'>
+         d100
+        </a>
+         
+    </div>
+        
+        <h1>Stat Rolls</h1>
+        <button onclick='MakeCharacter();'>Make a new character</button>
+        <div>
+        <input type=text; id=str value=''>
+        <input type=text; id=dex>
+        <input type=text; id=con>
+        <input type=text; id=int>
+        <input type=text; id=wis>
+        <input type=text; id=cha>
+        </div>
+   </div>
+    
+   
+</body>
+
+   
+
+
+</html>

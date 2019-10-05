@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Fizz Buzz</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="./css/styles.css">
+ 
+  <script src="./js/fizzbuzz.js"></script>
+    
+</head>
+  <!-- Back Button -->
+    
+<a id="headDiv" href="../">
+               &#127969; 
+        </a>  
+<body>
+ 
+    <!-- This is the button to start the program-->
+    <button onclick='getIndex();' class=myButtons id=indexButton>Click here to Create Index List</button>
+    <!-- Button to Fizz-->
+    <button onclick='getFizz();' class=myButtons id=fizzButton style='display:none;'>Click here to Fizz</button>
+     <!-- Button to Buzz-->
+    <button onclick='getBuzz();' class=myButtons id=buzzButton style='display:none;' >Click here to Buzz</button>
+      <!-- Button to FizzBuzz-->
+    <button onclick='getFizzBuzz();' class=myButtons id=fizzBuzzButton style='display:none;' >Click to FIZZBUZZ!</button>
+       <!-- Button to Return to Start-->
+    <button onclick='reset();' class=myButtons id=resetButton style='display:none;' >Click to Reset!</button>
+     <!-- Button to Display Code-->
+    <button onclick='showCode();' class=myButtons id=showCodeButton style='display:none;' >Click to Show Code!</button>
+    
+    
+    <!-- This div will show the printout-->
+    <div id=printOut>
+    This program will generate a list of numbers from 1-100.<br>
+    When you 'Fizz' the list, it will transform all numbers divisible by 3 to 'Fizz.'<br>
+    When you 'Buzz' the list, it will transform all numbers divisible by 5 to 'Buzz.'<br>
+    When you 'FizzBuzz' the list, it will do both together.
+    </div>
+    
+    <iframe id=myCode width=1600 height=1080 src="js/fizzbuzz.js"></iframe>
+    
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+
+@media screen and (min-width: 800px){
+  span {
+     
+  }
+}
+
+
+.jBack {
+    background-color: #ffaf44;
+    background-image: url(/img/WP.png);
+    background-repeat:repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+        }
+
+.nBack {
+    background-color: rgba(192, 169, 255, 0.69);
+    background-image: url(/projects/dungeon/img/dwarven_druid_by_fiftywalrus_dby1neu-fullview.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    background-size: cover;
+    
+        }
+.imgbox {
+            display: grid;
+            height: 100%;
+            margin: 0
+            
+        }
+.center-fit {
+            max-width: 100%;
+            max-height: 125vh;
+            margin: auto;
+            padding: 0;
+            
+            
+        }
+.center-fit-small {
+            max-width: 20%;
+            max-height: 25vh;
+            margin: auto;
+            padding: 0;
+        }
+img {
+	border-radius:25px;
+    
+}
+
+#profile {
+    /* Disabled for flipbox!!
+    left: 10px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    z-index: -5;
+    opacity: .99;
+    margin-top: 40px;
+    */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+#nameText {
+    position: relative;
+    display: inline-block;
+    z-index: -5;
+    left: 40px;
+    bottom: 80px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 72px;
+    color: gold;
+}
+
+#nyxNameText {
+    position: fixed;
+    display: inline-block;
+    z-index: -5;
+    left:0px;
+    top: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 450px;
+    color: rgba(189, 247, 255, 0.24);
+}
+#headDiv {
+    position: fixed;
+    z-index: 1;
+    font-family:serif;	
+	padding: 25px;
+    text-align: center;
+	background-color: #ffc06b;
+    border-radius: 25px;
+    font-size: 72px;
+    margin: 0px;
+    left: 450px;
+    }
+#headDiv:link{
+    text-decoration: none;
+    color:white;
+}
+#headDiv:visited{
+    text-decoration: none;
+    color:white;
+}
+#headDiv:hover{
+    text-decoration: underline;
+    color:darkorange;
+    box-shadow:10px 10px darkorange;
+}
+#headDiv:active{
+    text-decoration: underline;
+    color:white;
+    box-shadow:10px 10px darkorange;
+}
+
+#hidden {
+    visibility: hidden;
+    pointer-events:none;
+
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 5px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ffc06b; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+
+}
+#myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ffc06b; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+
+}
+#myBtn3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 149px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ffc06b; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#myBtn3:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    
+    left: 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+  background-color: transparent;
+  border-radius:25px;
+  width: 343px;
+  height: 591px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    
+  position: relative;
+  border-radius:25px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  border-radius:25px;    
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #360000;
+  border-radius:25px;
+  color: #ffaf44;
+  transform: rotateY(180deg);
+  
+} 
+
+#overlay { 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    margin:auto;
+}
+#overlayBack { 
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    z-index: 5;
+    margin:auto;
+    font-size: 2vmin;
+    max-width: 28%;
+    text-overflow: "...(Resize page)";
+    
+}
+
+#overlayDesc { 
+    position: absolute;
+    top: 47%;
+    left: 37%;
+    z-index: 5;
+    font-size: 2vmin;
+    width: 57%;
+    text-overflow: "...(Resize page)";
+   
+}
+
+.spellblock {
+    margin:auto;
+    max-width: 800px;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    margin-top: 10px;   
+    
+}
+
+mark{
+    background-color: #ffffce;
+    
+}
+
+.parchment {
+    padding: 25px;
+    font-family: 'Indie Flower', cursive;
+    background-image: url(/projects/dungeon/img/seamless_parchment_texture_by_fantasystock_dyu8dx.jpg);
+    background-color: tan;
+    max-width: 750px;
+    max-height: 2200px;
+    border-radius: 0%;
+    box-shadow: 10px 20px;
+    margin-top: 10px;
+    font-size: 2vmin;
+    text-align: left;
+    word-wrap: break-word;
+    text-overflow: "...";
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#nyxpdf {
+    margin-top: 700px;
+    width:95vw;
+    height:490vw;
+    max-width:1050px;
+    max-height:5360px;
+}
+#nyxHeadDiv {   
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    }
+#nyxHeadDiv:link {
+    text-decoration: none;
+                
+}
+#nyxHeadDiv:visited {
+    text-decoration: none;
+                
+}
+#nyxHeadDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}
+
+.druidform {
+    margin: 5px 10px 5px 10px;
+    height: auto;
+    width:90vw;
+    max-height: inherit;
+    max-width: 900px;
+    border-radius: 0px;
+    
+}
+
+h1{
+    background-color: darkgrey;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    padding: 5px 0px 5px 0px;
+    font-family:Georgia, serif;
+    font-variant:small-caps;
+    font-weight:bold;
+    color: white;
+}
+
+#nyxBtn1 {
+  display: inline-block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 5px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkgrey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+}
+#nyxBtn2 {
+  display: inline-block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 150px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkgrey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+}
+#nyxBtn3 {
+  display: inline-block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkgrey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 24px; /* Increase font size */
+}

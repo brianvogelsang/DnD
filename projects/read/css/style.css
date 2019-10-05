@@ -1,0 +1,99 @@
+body {
+    background-color: #fddf9a
+}
+
+#headDiv {   
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    }
+#headDiv:link {
+    text-decoration: none;
+                
+}
+#headDiv:visited {
+    text-decoration: none;
+                
+}
+#headDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}
+
+.myButtons {
+    margin-left:120px;
+  border: none;
+  background-color: #8c7da3;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px lightgrey;
+  
+}
+.myButtons:hover {background: #5c00d9;}
+
+.audioControllers {
+    margin: 30px 0px 30px 50px;
+}
+
+#currentPlaylistText{
+    font-family:sans-serif;   
+    width: 400px;
+    padding:10px;
+    background-color: lightgray;
+    border-style: solid;
+   
+}
+#jungleRoom {
+    border-style:solid;
+    border-width: 10px;
+    border-color: #001d00;
+    box-shadow: 5px 5px white;
+    margin-top:40px;
+    width: 400px;
+    background-color: #609a60;
+}
+#libraryRoom {
+    border-style:solid;
+    border-width: 10px;
+    border-color: #2a1a00;
+    box-shadow: 5px 5px white;
+    margin-top:40px;
+    margin-bottom: 40px;
+    width: 400px;
+    background-color: #a88615;
+}
+iframe {
+     border-style:solid;
+    border-width: 10px;
+    border-color: #2a1a00;
+    box-shadow: 5px 5px white;
+    margin-top:40px;
+    margin-bottom: 40px;
+    width: 480px;
+    height: 270px;
+    background-color: #a88615;
+}
+
+#JungleRoomStartBtn {
+    display: block;
+}
+
+#JungleRoomStopBtn {
+    display:none;
+}
+#LibraryRoomStartBtn {
+    display: block;
+}
+
+#LibraryRoomStopBtn {
+    display:none;
+}

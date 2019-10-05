@@ -1,0 +1,46 @@
+body {
+    background-image: url(/projects/dungeon/img/seamless_parchment_texture_by_fantasystock_dyu8dx.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    background-size: cover;
+    background-color:#dedede;
+}
+
+#headDiv {   
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px grey;
+    
+}
+
+        .flex-item,#headDiv:link {
+                text-decoration: none;
+                color:white;
+}
+
+        .flex-item,#headDiv:visited {
+                text-decoration: none;
+                color:white;
+}
+
+          .flex-item:hover {
+                text-decoration: underline;
+                color:#ffb717;
+}
+
+          .flex-item:active {
+                text-decoration: underline;
+                color:#ffb717;
+}
+
+#headDiv:hover {
+    text-decoration: underline;
+    color:#898a8b;
+    box-shadow: 10px 10px #898a8b;
+    background-color: aliceblue;
+}

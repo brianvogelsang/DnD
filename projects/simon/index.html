@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+      <script  src="js/simon.js"></script>
+
+    <h1>
+		<a id="headDiv" href="../">
+               &#127969;
+        </a>
+	</h1>
+
+</head>
+
+<body>
+
+        <button id=startBtn onclick="StartGame()" >Start</button>
+
+<div id=gamespace>
+    <button id=yellowBtn onclick=clickA()></button>
+    <button id=blueBtn onclick=clickB()></button>
+    <button id=greenBtn onclick=clickC()></button>
+    <button id=redBtn onclick=clickD()></button>
+</div>
+
+    <div class=audioControllers>
+<audio id="A">
+      <source src="media/A.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+        <audio id="B">
+      <source src="media/B.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+        <audio id="C">
+      <source src="media/C.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+        <audio id="D">
+      <source src="media/D.wav" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+              <audio id="error">
+      <source src="media/error.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+    </div>
+
+    <p id=debug> </p>
+    </body>

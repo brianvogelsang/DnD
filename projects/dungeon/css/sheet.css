@@ -1,0 +1,61 @@
+body {
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    overflow:hidden;
+    background-size:cover;
+    background-color:#dedede;
+}
+
+#headDiv {
+    display: block;
+    width: 100px;
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    margin: 0px 0px 40px 0px;
+    }
+
+#headDiv:link {
+    text-decoration: none;
+                
+}
+#headDiv:visited {
+    text-decoration: none;
+                
+}
+#headDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;   
+  max-height: 95vh; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: white;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  border: solid;    
+  
+  flex-wrap: nowrap;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+

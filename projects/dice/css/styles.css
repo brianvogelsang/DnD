@@ -1,0 +1,60 @@
+#scoreBoard {
+    border-style: solid;
+    background: #002100;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 95vw;
+    margin: 45px;
+}
+
+h1 {
+    font-size: 5em;
+    color: #dedec9;
+}
+
+a {
+    margin:15px;
+}
+
+    
+#btnDiv {
+  margin: 45px;     
+         }
+
+
+
+.flex-container {
+  border-style: solid;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 95vh; 
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+}
+
+.flex-item {
+  box-shadow: 10px 5px #4a4a4a;
+  background: ivory;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  border: solid;    
+  
+  flex-wrap: nowrap;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+input {
+    width: 50px;
+}

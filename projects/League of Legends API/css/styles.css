@@ -1,0 +1,26 @@
+body {
+    background-color: #997a9d
+}
+
+#headDiv {   
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    }
+#headDiv:link {
+    text-decoration: none;
+                
+}
+#headDiv:visited {
+    text-decoration: none;
+                
+}
+#headDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}

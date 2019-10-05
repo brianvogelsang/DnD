@@ -1,0 +1,82 @@
+#brianProfile{
+    max-height: 500px;
+    height: 40vmin;
+    margin: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
+    display: inline-block;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+        .listedItems:link {
+                text-decoration: none;
+            color:white;
+}
+
+
+        .listedItems:visited {
+                text-decoration: none;
+            color:white;
+}
+         .listedItems:hover {
+                text-decoration: underline;
+             color:skyblue;
+}
+
+        .listedItems:active {
+                text-decoration: underline;
+              color:skyblue;
+}
+
+.listedItems {
+    display: inline-block;
+    text-align: center;
+    background-color: #a7a7a7;
+    padding: 15px;
+    border-radius:15px;
+    width: 500px;
+    font-size: 72px;
+    box-shadow: 10px 10px; 
+    color:white;
+    
+}
+        #projectHome:link {
+                text-decoration: none;
+            color:white;
+}
+
+
+        #projectHome:visited {
+                text-decoration: none;
+            color:white;
+}
+         #projectHome:hover {
+                text-decoration: underline;
+             color:yellow;
+}
+
+        #projectHome:active {
+                text-decoration: underline;
+              color:skyblue;
+}
+
+#projectHome {
+    display: inline-block;
+    text-align: center;
+    background-color: #a7a7a7;
+    padding: 15px;
+    border-radius:15px;
+    width: 45vw;
+    min-width: 265px;
+    font-size: 72px;
+    box-shadow: 10px 10px; 
+    color:white;
+    
+}
+    
+    

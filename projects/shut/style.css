@@ -1,0 +1,12 @@
+.box {
+    height: 100px;
+    width: 50px;
+    background-color:bisque;
+    font-size: 48px;
+    
+}
+
+#startBtn {
+    margin: 40px;
+    
+}

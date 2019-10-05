@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <!-- CSS -->
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/nyx.css">
+    
+    <!-- Script to scroll -->
+     <script src="/js/vendor/jquery-3.3.1.min.js"></script>
+    <script  src="js/nyxScroll.js"></script>
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    
+  <title>Nyx Nackle</title>
+
+    <!-- Home Menu Buttons-->
+   <a id="nyxHeadDiv" href="./index.html">
+               &#127969; 
+        </a>  
+</head>
+
+<body class="nBack">
+    
+    <!-- Name here -->
+    <div id=nyxNameText>
+    NYX
+    </div>
+ 
+    <!-- PDF file for character -->
+    <center> 
+			<object max-width="1050"
+                    max-height="5360"
+                    type="application/pdf"
+                    data="./img/nyx.pdf#view=Fit&scrollbar=0&toolbar=0&navpanes=0&statusbar=0"
+                    id="nyxpdf">
+    <p>This application is not supported by your current browser.</p>
+            </object>
+    </center>
+
+    <!-- List of Druid forms -->
+ <h1 id='druidFormList'>Druid Forms</h1>
+    
+ <img src="druidforms/wolfspider.png" alt="Giant Wolfspider" class='druidform'>
+ <img src="druidforms/wolf.png" alt="Wolf" class='druidform'>
+ <img src="druidforms/cat.png" alt="Cat" class='druidform'>
+ <img src="druidforms/boar.png" alt="Boar" class='druidform'>
+ <img src="druidforms/deer.png" alt="Deer" class='druidform'>
+ <img src="druidforms/elk.png" alt="Elk" class='druidform'>
+ <img src="druidforms/goat.png" alt="Goat" class='druidform'>
+ <img src="druidforms/panther.png" alt="Panther" class='druidform'>
+ <img src="druidforms/horse.png" alt="Horse" class='druidform'>
+    
+    
+    <!-- Buttons for Scrolling page content-->
+     <button onclick="topFunction()" id="nyxBtn1" title="Go to top">&uarr;</button>
+    
+    <button onclick="nxySheetScroll()" id="nyxBtn2" title="Go to Spells">Character Sheet</button> 
+    
+     <button onclick="nxyFormScroll()" id="nyxBtn3" title="Go to Journal">Forms</button> 
+    
+    
+</body>
+
+</html>

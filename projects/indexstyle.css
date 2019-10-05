@@ -1,0 +1,48 @@
+div {
+    display: block;
+    width: 95vw;
+}
+
+.blueLink, .redLink {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    background-color: #a7a7a7;
+    padding: 15px;
+    border-radius:15px;
+    font-size: 16px;
+    box-shadow: 10px 10px; 
+    
+}
+
+
+        .redLink,.blueLink,#headDiv:link {
+                text-decoration: none;
+                color:white;
+}
+
+        .redLink,.blueLink,#headDiv:visited {
+                text-decoration: none;
+                color:white;
+}
+
+          .redLink:hover {
+                text-decoration: underline;
+                color:#ffb717;
+}
+
+          .redLink:active {
+                text-decoration: underline;
+                color:#ffb717;
+}
+
+          .blueLink:hover {
+                text-decoration: underline;
+                color:skyblue;
+}
+
+          .blueLink:active {
+                text-decoration: underline;
+                color:skyblue;
+}

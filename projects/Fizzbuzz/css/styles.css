@@ -1,0 +1,62 @@
+body {
+    background-color: #d4d4d4
+}
+
+#headDiv {
+    display: block;
+    width: 100px;
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    }
+#headDiv:link {
+    text-decoration: none;
+                
+}
+#headDiv:visited {
+    text-decoration: none;
+                
+}
+#headDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}
+
+.myButtons {
+    display: block;
+    margin: 40px;
+    font-family:sans-serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: skyblue;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    color:darkblue;
+    }
+}
+
+#printOut {
+    display: block;
+    margin-top: 40px;
+    font-family:sans-serif;   
+}
+p {
+    width: 150px;
+    display: block;
+    font-family:sans-serif;
+	font-size: 18px;
+    background-color: black;
+    color:#00d300;
+    padding:7px;
+    text-align: center;
+}
+
+#myCode {
+    display:none;
+}

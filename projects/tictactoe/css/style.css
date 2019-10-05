@@ -1,0 +1,69 @@
+.btn {
+  width: 100px;
+  height: 100px;
+  margin: 0px, 0px, 0px, 0px;
+  border-width: 3px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-style: bold;
+  font-size: 20px;
+  white-space: pre;
+}
+.btnX {
+  width: 100px;
+  height: 100px;
+  margin: 0px, 0px, 0px, 0px;
+  border-width: 3px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-style: bold;
+  font-size: 20px;
+  white-space: pre;
+  background-color:pink;
+}
+.btnO {
+  width: 100px;
+  height: 100px;
+  margin: 0px, 0px, 0px, 0px;
+  border-width: 3px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-style: bold;
+  font-size: 20px;
+  white-space: pre;
+  background-color:lightblue;
+}
+
+#reset {
+  margin-top: 10px;
+  height: 45px;
+  width: 310px;
+  background-color: pink;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  }
+#btnO {
+  height: 60px;
+  width: 80px;
+  background-color: lightblue;
+}
+#btnX {
+  height: 60px;
+  width: 80px;
+  background-color: pink;
+}
+#turnCounter {
+  visibility: hidden;
+}
+#debug {
+  visibility: hidden;
+}
+#bestMoveLabel {
+  visibility: hidden;
+}
+
+.hideIt {
+visibility: hidden;
+}
+.scoreCount {
+display: none;
+}

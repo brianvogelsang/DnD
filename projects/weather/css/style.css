@@ -1,0 +1,64 @@
+#weatherButton{
+  margin: 20px;
+  padding: 20px;
+  font-size: 52px;
+  border-radius: 40px;
+  background-color: #5084ff;
+  color: white;
+ 
+}
+
+#superSmall{
+  font-size: 8px;
+  margin-left: 40px;
+  margin-top:2px;
+}
+
+#btnChange{
+  margin: 20px 0px 0px 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 0px;
+  margin-top:25px;
+}
+
+#locManual {
+  font-size: 10px;
+  margin: 2px 0px 0px 20px;
+}
+
+body {
+    margin-left: 15px;
+    background-image: url(/img/pencil.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    background-size: cover;
+    background-color:#dedede;
+}
+
+#headDiv {
+    display: block;
+    width: 150px;
+    font-family:serif;
+	font-size: 72px;
+	padding: 20px;
+	background-color: white;
+    border-radius: 25px;   
+    text-align: center;
+    box-shadow: 10px 10px rgba(159, 200, 255, 0.19);
+    }
+
+#headDiv:link {
+    text-decoration: none;
+                
+}
+#headDiv:visited {
+    text-decoration: none;
+                
+}
+#headDiv:hover {
+    text-decoration: underline;
+    color:skyblue;
+    box-shadow: 10px 10px skyblue;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/background.css">
+	
+    <h1>
+		<a id="headDiv" href="../">
+               &#127969; 
+        </a> 
+	</h1>
+  
+</head>
+
+<body>
+
+  <div id=gameHeader>
+<p>Play as <button id=btnX class=btnX onclick="btnXClick()">X</button> (You can go first.)</p>
+<p>Play as <button id=btnO class=btnO onclick="btnOClick()">O</button> NOTE: Computer will go first.</p>
+</div>
+<div class=scoreCount id=scoreBoard>
+  <h> <b><u>Scoreboard</u></b></h>
+  <p>Player: 0</p>
+  <p id=computerWin>Computer: 0</p>
+  <p id=tieGame>Tie: 0</p>
+</div>
+<div id=gameBoard>
+    <button id=board0 class=btn onclick="tlClick()"></button>
+    <button id=board1 class=btn onclick="tmClick()"></button>
+    <button id=board2 class=btn onclick="trClick()"></button> 
+  <br>
+    <button id=board3 class=btn onclick="mlClick()"></button>
+    <button id=board4 class=btn onclick="mmClick()"></button>
+    <button id=board5 class=btn onclick="mrClick()"></button> 
+  <br>
+    <button id=board6 class=btn onclick="blClick()"></button>
+    <button id=board7 class=btn onclick="bmClick()"></button>
+    <button id=board8 class=btn onclick="brClick()"></button>
+  </div>
+
+<button id=reset onclick="resetClick()">Reset</button>
+<p id=bestMoveLabel></p>
+<p id=turnCounter>Turn 0</p>
+
+<button id=debug onclick="debugBoard()">Debug</button>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>

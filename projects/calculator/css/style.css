@@ -1,0 +1,33 @@
+body {
+  background-color: #ddeaff;
+}
+
+.textField {
+  background-color: black;
+  color: green;
+  width: 160px;
+  height: 30px;
+  margin: auto;
+  font-size: 25px;
+}
+
+#outerBorder {
+  width: 200px;
+  border-style: solid;
+  background-color: grey;
+  position: absolute;
+    height: 230px;
+    width: 175px;
+    margin: -200px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+}
+
+.myButton {
+  width: 40px;
+  height: 40px;
+}
+.myBigButton {
+  width: 85px;
+  height: 40px;
+}

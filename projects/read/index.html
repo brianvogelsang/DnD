@@ -1,0 +1,111 @@
+<!doctype html>
+
+<!-- "Music from https://www.zapsplat.com" -->
+
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Reading Room</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="./css/style.css">
+ 
+  <script src="./js/readingroom.js"></script>
+    
+    </head>
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Back Button -->
+    
+<a id="headDiv" href="../">
+               &#127969; 
+        </a>   
+    
+  <!-- Button to stop the sounds-->
+           <div style='margin-top:40px;'> 
+<button onclick="stopSounds()" class=myButtons>Stop Music</button>  
+    </div>
+        
+    
+    
+<!-- Audio controllers-->
+    
+    <!-- Jungle Room-->
+    <div id=jungleRoom> 
+    
+        <div style='margin-top:40px;'> 
+<button onclick="startJungleRoom()" class=myButtons id=JungleRoomStartBtn>Jungle Room</button>  
+    </div>
+        <div style='margin-top:40px;'> 
+<button onclick="stopJungleRoom()" class=myButtons id=JungleRoomStopBtn>Stop Jungle Room</button>  
+    </div>
+        
+        
+    <div class=audioControllers>
+<audio id="myRain">
+      <source src="sounds/zapsplatRain1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+    
+    <audio id="myFire">
+      <source src="sounds/zapsplatfire1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>  
+    </div>        
+        </div>
+    
+    <!-- Greycott Library-->
+    <div id=libraryRoom>
+    <div style='margin-top:40px;'> 
+<button onclick="startLibrary()" class=myButtons id=LibraryRoomStartBtn>Ancient Library</button>  
+    </div>
+         <div style='margin-top:40px;'> 
+<button onclick="stopLibrary()" class=myButtons id=LibraryRoomStopBtn>Stop Ancient Library</button>  
+    </div>
+        
+        
+    <div class=audioControllers>
+<audio id="myLibrary">
+      <source src="sounds/library.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+        </div>
+    </div>
+    
+    <!-- Youtube Test-->
+     <iframe src="https://www.youtube.com/embed/3sL0omwElxw?&loop=1&playlist=3sL0omwElxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+      
+    <iframe src="https://www.youtube.com/embed/W9CLdkkNn20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Playlist Tracker-->
+    <p id=currentPlaylistText>
+    </p>
+    
+ 
+    
+    <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
