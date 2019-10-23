@@ -19,20 +19,20 @@
 </head>
 
 <body>
-
-    <div>
-        <button class=box id=b1>1</button>
-        <button class=box id=b2>2</button>
-        <button class=box id=b3>3</button>
-        <button class=box id=b4>4</button>
-        <button class=box id=b5>5</button>
-        <button class=box id=b6>6</button>
-        <button class=box id=b7>7</button>
-        <button class=box id=b8>8</button>
-        <button class=box id=b9>9</button>      
-    </div>
+ <button id=startBtn onclick="roll()" >Roll</button>
+    <button id=resetBtn onclick="reset()" >Reset</button>
     
-    <button id=startBtn onclick="roll()" >Roll</button>
+    <div>
+        <button class=button id=b1 onclick="press('b1')">1</button>
+        <button class=button id=b2 onclick="press('b2')">2</button>
+        <button class=button id=b3 onclick="press('b3')">3</button>
+        <button class=button id=b4 onclick="press('b4')">4</button>
+        <button class=button id=b5 onclick="press('b5')">5</button>
+        <button class=button id=b6 onclick="press('b6')">6</button>
+        <button class=button id=b7 onclick="press('b7')">7</button>
+        <button class=button id=b8 onclick="press('b8')">8</button>
+        <button class=button id=b9 onclick="press('b9')">9</button>      
+    </div>
     
     <p id=printOut>Total: 0</p>
     

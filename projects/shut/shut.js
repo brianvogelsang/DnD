@@ -1,13 +1,49 @@
-function roll() {
+var yourRoll = 0;
 
-    var yourRoll = 0;
+function reset(){
+    yourRoll = 0;
+    
+    document.getElementById('printOut').innerHTML = 'Total: ' + yourRoll;
+    
+    document.getElementById('b1').disabled = false;
+    document.getElementById('b2').disabled = false;
+    document.getElementById('b3').disabled = false;
+    document.getElementById('b4').disabled = false;
+    document.getElementById('b5').disabled = false;
+    document.getElementById('b6').disabled = false;
+    document.getElementById('b7').disabled = false;
+    document.getElementById('b8').disabled = false;
+    document.getElementById('b9').disabled = false;
+}
+
+function roll(){
+
     var printout = document.getElementById('printOut');
     
     var d1 = Math.floor(Math.random() * 6) + 1;
     var d2 = Math.floor(Math.random() * 6) + 1;
     
-    yourRoll = d1 + d2;
-    printout.innerHTML = 'Total: ' + yourRoll;
+    
+    if(yourRoll == 0){
+        yourRoll = d1 + d2;
+        document.getElementById('printOut').innerHTML = 'Total: ' + yourRoll;
+    
+    }
+        
+}
+
+function press(str){
+    x = str[1];
+    
+    //document.getElementById('debug').innerHTML = x;
+    
+    if(yourRoll - x >= 0){
+        yourRoll = yourRoll - x;
+        document.getElementById(str).disabled = true;
+    }
+    
+    document.getElementById('printOut').innerHTML = 'Total: ' + yourRoll;
+   
 }
 
 /*

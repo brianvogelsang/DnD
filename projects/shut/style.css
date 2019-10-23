@@ -1,4 +1,4 @@
-.box {
+.button {
     height: 100px;
     width: 50px;
     background-color:bisque;
@@ -6,7 +6,17 @@
     
 }
 
+button:disabled,
+button[disabled]{
+    height: 100px;
+    width: 50px;
+    background-color:grey;
+    font-size: 48px;
+    color: white;
+}
+
 #startBtn {
     margin: 40px;
     
 }
+
