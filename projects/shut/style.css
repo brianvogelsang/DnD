@@ -15,8 +15,57 @@ button[disabled]{
     color: white;
 }
 
-#startBtn {
-    margin: 40px;
-    
+#roll2Btn {
+    margin: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    color: white;
 }
 
+#roll1Btn {
+    margin: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: lightgreen;
+    color: black;
+    display: none;
+}
+
+p {
+    font-size: 50px;
+}
+
+#d1 {
+    border-style: ridge;
+    border-color: black;
+    height: 80px;
+    width: 80px;
+    font-size: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#d2 {
+    border-style: ridge;
+    border-color: black;
+    height: 80px;
+    width: 80px;
+    font-size: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#container {
+    display: flex;
+    margin-top: 20px;
+}
