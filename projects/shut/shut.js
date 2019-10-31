@@ -1,8 +1,10 @@
 var yourRoll = 0;
 var boxes = [1,2,3,4,5,6,7,8,9];
 var score = 0;
+var youWin = false;
 
 function reset(){
+    youWin = false;
     yourRoll = 0;
     boxes = [1,2,3,4,5,6,7,8,9];
     
@@ -27,6 +29,10 @@ function reset(){
 }
 
 function roll2(){
+    
+    if(youWin == true) {
+        reset();
+    }
     
     if(yourRoll ==0){
         score = boxes.reduce((a, b) => a + b, 0)
@@ -53,6 +59,10 @@ function roll2(){
 }
 
 function roll1(){
+    if(youWin == true) {
+        reset();
+    }
+    
     if(yourRoll ==0){
         score = boxes.reduce((a, b) => a + b, 0)
         document.getElementById('debug').innerHTML = 'Score: -' + score;
