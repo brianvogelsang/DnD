@@ -29,6 +29,21 @@
         <div id=scoreBoard>
         <h1> Try your Luck </h1>
         </div>
+        
+         <div>
+        <p>Advantage</p>
+        <label class="switch">
+            <input type="checkbox" id=advSwitch onclick='advClick()'>
+            <span class="slider round"></span>
+        </label>
+        
+        <p>Disadvantage</p>
+        <label class="switch">
+            <input type="checkbox" id=disSwitch onclick='disClick()'>
+            <span class="slider round"></span>
+        </label>    
+        
+    </div>
         <!-- Dice Rollers
    
         -->
@@ -62,21 +77,64 @@
         <a onclick='basicRoll(1,101);' class='flex-item'>
          d100
         </a>
-         
     </div>
         
+   
+        
+   
         <h1>Stat Rolls</h1>
         <button onclick='MakeCharacter();'>Make a new character</button>
         <div>
-        <input type=text; id=str value=''>
+        <input type=text; id=str>
         <input type=text; id=dex>
         <input type=text; id=con>
         <input type=text; id=int>
         <input type=text; id=wis>
         <input type=text; id=cha>
         </div>
-   </div>
+        
+        <div>
+        <h1>Saves</h1>
+            <input type=text; id=strS>
+            <input type=text; id=dexS>
+            <input type=text; id=conS>
+            <input type=text; id=intS>
+            <input type=text; id=wisS>
+            <input type=text; id=chaS>
+           
+        
+        </div>
+
+        <div>
+        <h1>Skills</h1>
+            <input type=text; id=acrobatics value=''>
+            <input type=text; id=animal value=''>
+            <input type=text; id=arcana value=''>
+            <input type=text; id=athletics value=''>
+            <input type=text; id=deception value=''>
+            <input type=text; id=history value=''>
+            <input type=text; id=insight value=''>
+            <input type=text; id=intimidation value=''>
+            <input type=text; id=investigation value=''>
+            <input type=text; id=medicine value=''>
+            <input type=text; id=nature value=''>
+            <input type=text; id=perception value=''>
+            <input type=text; id=performance value=''>
+            <input type=text; id=persuasion value=''>
+            <input type=text; id=religion value=''>
+            <input type=text; id=sleight value=''>
+            <input type=text; id=stealth value=''>
+            <input type=text; id=survival value=''>
+        
+        </div>
     
+    
+    
+    
+    
+    </div>
+    
+    <p id=debug></p>
    
 </body>
 
