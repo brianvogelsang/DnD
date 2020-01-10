@@ -1,3 +1,11 @@
+@font-face { 
+     font-family: DiceBlock;
+     src: url('DiceBlock.otf');
+} 
+@font-face { 
+    font-family: DiceBlock; font-weight: bold; 
+    src: url('DiceBlock.otf');}
+
 .button {
     height: 100px;
     width: 50px;
@@ -37,11 +45,12 @@ p {
 }
 
 #d1 {
+    font-family: DiceBlock, sans-serif; 
     border-style: ridge;
     border-color: black;
     height: 80px;
     width: 80px;
-    font-size: 55px;
+    font-size: 80px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -51,11 +60,12 @@ p {
     margin-top: 7px;
 }
 #d2 {
+    font-family: DiceBlock, sans-serif; 
     border-style: ridge;
     border-color: black;
     height: 80px;
     width: 80px;
-    font-size: 55px;
+    font-size: 80px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -68,4 +78,12 @@ p {
 #container {
     display: flex;
     margin-top: 20px;
+}
+
+.block {
+    display: flex;
+}
+
+#explain {
+    font-size: 15px;
 }

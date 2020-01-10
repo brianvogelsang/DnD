@@ -24,6 +24,11 @@
     <button id=resetBtn onclick="reset()" >Reset</button>
     <button id=qBtn onclick="window.location.href = 'https://www.mastersofgames.com/rules/shut-box-rules.htm'">How to play?</button>
     
+    <div class=block> 
+    <div id=d1> 6 </div>
+    <div id=d2> 6 </div>
+    </div>
+    
     <div id=container>
         <button class=button id=b1 onclick="press('b1')">1</button>
         <button class=button id=b2 onclick="press('b2')">2</button>
@@ -35,11 +40,12 @@
         <button class=button id=b8 onclick="press('b8')">8</button>
         <button class=button id=b9 onclick="press('b9')">9</button>
         
-        <div id=d1> 6 </div>
-        <div id=d2> 6 </div>
+        
     </div>
     
-    <p id=printOut>Roll the dice</p>    
+    <p id=printOut>Roll the dice</p>
+   
+    <p id=debug></p>
     
-    <p id=debug> </p>
+    <p id=explain>Try to get closest to Zero</p>
 </body>
