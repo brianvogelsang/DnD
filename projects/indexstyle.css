@@ -5,13 +5,14 @@ div {
 
 .blueLink, .redLink {
     display: inline-block;
-    width: 200px;
+    width: 25vw;
+    height: 5vh;
     text-align: center;
     margin: 10px 5px 10px 5px;
     background-color: #a7a7a7;
     padding: 15px;
     border-radius:15px;
-    font-size: 16px;
+    font-size: 2vw;
     box-shadow: 10px 10px; 
     
 }
