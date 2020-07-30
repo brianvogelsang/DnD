@@ -1,4 +1,4 @@
-// this is the board flattened and filled with some values to easier asses the Artificial Inteligence.
+// this is the board flattened and filled with some values.
 var origBoard = [0,1,2,3,4,5,6,7,8];
 // Score counter
 var tieCount = 0;
